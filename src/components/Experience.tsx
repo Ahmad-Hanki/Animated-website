@@ -1,7 +1,7 @@
 import React from "react";
 
 import { workExperience } from "@/data";
-import { Button } from "./ui/MovingBorders";
+import { Button } from "./ui/moving-border";
 
 const Experience = () => {
   return (
@@ -16,7 +16,7 @@ const Experience = () => {
             key={card.id}
             //   random duration will be fun , I think , may be not
             duration={Math.floor(Math.random() * 10000) + 10000}
-            borderRadius="1.75rem"
+            borderRadius="4.75rem"
             style={{
               //   add these two
               //   you can generate the color from here https://cssgradient.io/
